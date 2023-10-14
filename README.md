@@ -4,6 +4,7 @@ An Attiny 85 microcontroller manages a relay connected to household outlets. Thi
 ## Things to Note ##
 
 - The relay I used had inverted logic, meaning sending a signal to turn it on actually turned it off, and vice versa.
+- The pir sensor usally takes a few seconds to initialize, and the relay may switch on and off a few times before the code starts to run
 - Exercise caution when working with high voltage to ensure safety and prevent any potential hazards. 
 
 ## Schematic View ##

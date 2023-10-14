@@ -15,12 +15,12 @@ void setup() {
 void loop() {
     val = digitalRead(pirpin);  // read input value
     if (val == HIGH) {            // check if the input is HIGH
-        digitalWrite(relaypin, LOW);  // turn LED ON
+        digitalWrite(relaypin, LOW);  // turn relay ON
         delay(15000);  
-        digitalWrite(relaypin, HIGH); // turn LED OFF
+        digitalWrite(relaypin, HIGH); // turn relay OFF
         delay(1000);
     } else if (val == LOW) {
-        digitalWrite(relaypin, HIGH); // turn LED OFF
+        digitalWrite(relaypin, HIGH); // turn relay OFF
         delay(1000);
     }
 }
