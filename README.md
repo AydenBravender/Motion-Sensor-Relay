@@ -8,7 +8,7 @@ An Attiny 85 microcontroller manages a relay connected to household outlets. Thi
 
 ## Schematic View ##
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AydenBravender/Motion-Sensor-Relay/main/Screenshot_2023-10-14_160903.jpg" alt="Image" width="50%" height="50%">>
+  <img src="https://raw.githubusercontent.com/AydenBravender/Motion-Sensor-Relay/main/Screenshot%202023-10-14%20160903.jpg" alt="Image" width="50%" height="50%">>
 </p>
 
 
